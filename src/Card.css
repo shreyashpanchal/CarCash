@@ -1,0 +1,38 @@
+.card-container{
+
+    height:502px;
+    flex:0.33333;
+    
+}
+
+.card{
+    width: 380px;
+    height:480px;
+    border-radius: 15%;
+    margin:10px auto;
+    box-shadow: 10px 10px 8px #a59503;
+    transition: transform 450ms;
+}
+
+.card:hover{
+    transform: scale(1.09);
+    background-color: rgb(252, 247, 0);
+}
+
+.image img{
+border-radius:20%;
+width:100%;
+height:100%;
+background-size: contain;
+}
+.cardcontent{
+    font-family: 'Poppins', sans-serif;
+    padding:20px;
+   
+}
+.cardcontent h1{
+    font-size:2.2em;
+}
+.cardcontent p{
+    font-size:1.1em;
+}

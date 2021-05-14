@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.cont{
+    display: flex;
+    align-items: center;
+    height:100px;
+    width: 100%;
+    box-shadow: 0 2px 3px gold;
+    font-family: 'Poppins', sans-serif;
+    position: sticky;
+    z-index: 100;
+    opacity:0.8;
+    top:0;
+    left:0;
+    background-color:#101820ff;
+    justify-content: space-around;
+}
+
+.links{
+ 
+ height:80px;
+ width:550px;
+ padding:30px;
+ margin-left:40px;
+}
+.links a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-size:1.2em;
+    
+    margin-left:20px;
+}
+
+
+
+
+
+
+
+
+
+
+

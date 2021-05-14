@@ -1,0 +1,46 @@
+.section1{
+    height: 90vh;
+    background-color:#fee715ff;
+    width: 100%; position: relative;
+    /* z-index: -5; */
+   
+    display: flex;
+    align-items: center;
+   border-radius:45px;
+   box-shadow: 10px 10px 8px #0c0c0c9c;
+}
+
+.left1{
+    flex:0.6;
+    height:90vh;
+    position: relative;
+    
+}
+.right1{
+    font-family: 'Poppins', sans-serif;
+    flex:0.4;
+    height:90vh;
+    position: relative;
+   
+    text-align: left;
+    width:100%;
+    line-height: 1;
+    padding-top:210px;
+}
+#sp1{
+color:#1034A6;
+}
+#sp2{
+color:#0f52ba;
+
+}
+#sp3{
+color:#008ecc;
+}
+.right1 div{
+    margin-right:20px;
+    margin-left:10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:800;
+   
+}

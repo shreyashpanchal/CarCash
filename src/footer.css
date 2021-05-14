@@ -1,0 +1,40 @@
+.footer_container{
+    background-color:#fee715ff;
+    height:70vh;
+    width: 100%;
+    position: relative;
+    
+    z-index: -5;
+    font-family: 'Poppins', sans-serif;
+    border-radius:45px 45px 1px 1px ;
+    box-shadow: 10px 10px 8px #0c0c0c9c;
+}
+
+.box1{
+    display: flex;
+    font-size:1.2em;
+    align-items: stretch;
+    border-bottom:1px solid rgb(87, 82, 82);
+}
+.box2{
+    font-size:1.4em;
+}
+.wrap{
+    height:60vh;
+    width:80%;
+    margin:50px 10% 0 10%;
+    
+}
+.footlink{
+    flex:0.33333;
+    padding:20px;
+    height:400px;
+    
+}
+li{
+    margin-top:15px;
+    margin-left:35px;
+}
+li:hover{
+    cursor:pointer;
+}

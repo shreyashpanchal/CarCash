@@ -1,0 +1,53 @@
+
+
+.card2{
+  
+    transform: rotate(90deg);
+    transform-origin: right top;
+    height:600px;
+    width:520px;
+    padding-left:70px ;
+    padding-top:20px;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin-top:150px;
+}
+
+
+.cards2{
+    height: 430px;
+    
+    box-shadow: 10px 10px 8px #0c0c0c9c;
+    width:400px;
+    border-radius: 10%;
+    margin-top:35px;
+    padding-top:40px;
+   
+    color:rgb(0, 0, 0);
+    font-family:lato;
+    background-color:#fee715ff;
+    
+    transition: transform 450ms;
+}
+
+.cards2:hover {
+    
+    transform: scale(1.09);
+    background-color: rgb(252, 247, 0);
+}
+
+.cardhead{
+    padding:20px;
+    
+    font-size:1em;
+}
+.cardcontent{
+    font-size:1.4rem;
+    padding:20px;
+    line-height: 1.5;
+    word-wrap: normal;
+   
+    height: 100%;
+
+}
